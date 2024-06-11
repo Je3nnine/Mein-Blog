@@ -1,0 +1,160 @@
+h1 {
+    border: thin solid;
+	padding: 0.25em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: max-content;
+	text-align: center
+}
+
+body{
+    background-color: rgb(255, 240, 249);
+}
+
+h1 {
+  font: bold 5em Helvetica, Arial, Sans-Serif;
+  padding: .2em;
+ 
+}
+ 
+h1 {
+  color: rgb(255, 0, 242);
+  text-shadow: 
+    1px 1px rgb(0, 195, 255); 
+    2px 2px rgb(0, 195, 242);
+    3px 3px rgb(0, 195, 255);
+  transition: all .12s ease-out;
+}
+h1:hover {
+  position: relative; top: -3px; left: -3px; 
+  text-shadow: 
+    1px 1px rgb(0, 195, 255); 
+    2px 2px rgb(0, 195, 255); 
+    3px 3px rgb(0, 195, 255);  
+    4px 4px rgb(0, 195, 255); 
+    5px 5px rgb(0, 195, 255); 
+    6px 6px rgb(0, 195, 255); 
+}
+ 
+h1 {
+  text-shadow: 
+    1px -1px 0 hsl(0 0% 50% / 1),
+    2px -2px 0 hsl(0 0% 55% / 1),
+    3px -3px 0 hsl(0 0% 60% / 1),
+    4px -4px 0 hsl(0 0% 65% / 1),
+    5px -5px 0 hsl(0 0% 70% / 1),
+    6px -6px 0 hsl(0 0% 75% / 1),
+    7px -7px 0 hsl(0 0% 80% / 1),
+    8px -8px 0 hsl(0 0% 85% / 1),
+    9px -9px 0 hsl(0 0% 90% / 1);
+}
+ 
+
+  body {
+    margin: 0;
+    background: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+  }
+  .container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+
+  body{
+    background: lightgray;
+   }
+  .content{
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .nav-pills{
+    width: 450px;
+  }
+  .nav-item{
+    width: 50%;
+  }
+  .nav-pills .nav-link{
+    font-weight: bold;
+    padding-top: 13px;
+    text-align: center;
+    background: #343436;
+    color: #fff;
+    border-radius: 30px;
+    height: 100px;
+  }
+  .nav-pills .nav-link.active{
+    background: #fff;
+    color: #000;
+  }
+  .tab-content{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    margin-top: -50px;
+    background: #fff;
+    color: #000;
+    border-radius: 30px;
+    z-index: 1000;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  .tab-content button{
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 auto;
+    float: right;
+  }
+
+
+  
+
+  @media print{
+    img {
+    width:40%;
+    }
+    sprung, .navigation {
+      display:none;
+      }
+      }
+      img {
+        max-width:100%;
+        }  
+        .sprung {
+          display:none;
+          }
+  .navigation {
+            float:left;
+            width:25%;
+            padding:2%;
+            }
+           
+            .inhalt {
+            float:right;
+            width:65%;
+            padding:3%;
+           
+            }
+            
+  
+  
+    
+    
